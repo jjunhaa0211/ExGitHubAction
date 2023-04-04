@@ -20,5 +20,4 @@ jobs:
       run: echo Hello, world!
     - name: Run tests
       run: | 
-        xcodebuild clean test -project ExGithubAction.xcodeproj -scheme ExGithubAction -destination "platform=iOS Simulator,name=iPhone 14"
-    
+        xcodebuild clean test -project ExGithubAction.xcodeproj -scheme ExGithubAction -destination "platform=iOS Simulator,name=iPhone 11"
